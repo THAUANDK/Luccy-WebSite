@@ -1,0 +1,2384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="LucyFofaZap">
+ <link href="https://images-ext-2.discordapp.net/external/MZRb1KAfIupeoktlXxMvegtP_RcscrNdi8uoHTeV4WA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/992128503048835253/852ded51ea0a3b87f809b326d64b4a4f.png?width=494&height=494" rel="icon">
+  <meta name="author" content="yThauanzynho7">
+  <link href="/css/star.css" rel="stylesheet">
+  <link href="/css/one-page-wonder.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/all.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="/image/x-icon" href="/img/star.png" />
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+  <title>Lucy™ Comandos</title>
+</head>
+
+<body class="theme-color">
+  <nav class="degrade navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <div class="col-xs-1 text-center navbar-color"
+      style=" display: flex; align-items: center; justify-content: center;">
+      <a class="navbar-brand theme-color-font2 theme-color-font2 font-3" href="/"
+        style="margin-left: 5px; margin-right: 1px; margin-bottom: 0px; padding-top: 7px; padding-bottom: 3px;"><i
+          class="far fa-star-half"></i>LUCY</a>
+      <a class="navbar-brand theme-color-font2 theme-color-font2 font-2" href="/"
+        style="padding-top: 0px; padding-bottom: 10px; margin-right: 15px;"></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="https://discord.gg/qygJRw8K7p"><i
+              class="fab fa-discord"></i> Discord</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/comandos/commands"><i
+              class="fas fa-laptop-code"></i>
+            Comandos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/premium.html"><i class="fas fa-donate"></i> Seja
+            premium</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="https://top.gg/bot/992128503048835253/vote"><i
+              class="fa fa-check-circle"></i> Votar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/stores/store"><i class="fas fa-shopping-cart"></i>
+            Loja</a>
+        </li>
+
+        <div class="nav-item dropdown">
+          <a href="/links/link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-link"
+              aria-hidden="true"></i> Links</a>
+          <div class="dropdown-menu m-0">
+
+            <a href="/links/" class="dropdown-item">Diretrizes da comunidade</a>
+            <a href="/links/" class="dropdown-item">Termos de Serviço e Política de Privacidade</a>
+          </div>
+        </div>
+
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <button class="text-left botao theme-color-font2 navbar-color"
+          style="padding-left: 0px; background-color: rgba(255, 255, 255, 0); border: 0px;" onclick="toggleTheme()"><i
+            id="botaothemeID" class='fas fa-moon'></i></button>
+        <div style="padding-right: 20px;"></div>
+        <li class="nav-item navbar-color" style="display: flex!important; flex-direction: row!important;">
+
+          <a class="nav-link theme-color-font2 navbar-color" style="padding-left: 5px;"
+            href="https://discord.com/api/oauth2/authorize?client_id=992128503048835253&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorihttps://discord.com/api/oauth2/authorize?client_id=992128503048835253&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D992128503048835253%26permissions%3D1377883909367%26scope%3Dbot&response_type=code&scope=email%20guilds%20identify%20guilds.join"><i
+              class="fas fa-sign-in-alt"></i> Entrar</a>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div style="padding-bottom: 130px;">
+    <div class="text-left" style="padding-top: 130px">
+      <div class="dashboard" style="display: flex; flex-direction: row;">
+        <div class="container full text-align" style="width: 20%">
+          <div class="text-center"
+            style="display:flex; flex-direction: column!important; border-radius: 10px; box-shadow: 5px 1px 10px 0 rgba(180, 0, 255, 0.5), 0 5px 20px 0 rgba(255, 0, 255, 0.5)!important; padding-top: 5px; padding-bottom: 5px;">
+            <center><a class="theme-color-font1 font-2"
+                style="text-shadow: 2px 2px 5px rgb(212, 0, 255)!important; font-size: 1.65em!important;">Lucy™</a>
+            </center>
+            <br />
+            <button class="buttons-commands button-base button-default" onclick="setMenu('Principal')"
+              style="margin-left: 10px; margin-right: 10px; font-weight: bold; font-size: 1.2em; border: 2px solid rgb(255,0,185); border-radius: 5px;">LUCY™</button>
+            <button class="buttons-commands button-base button-default" onclick="setMenu('Music')"
+              style="margin-left: 10px; margin-right: 10px; font-weight: bold; font-size: 1.2em; border: 2px solid rgb(255, 0, 0); border-radius: 5px;">Lucy™
+              Music</button>
+            <button class="buttons-commands button-base button-default" onclick="setMenu('Economy')"
+              style="margin-left: 10px; margin-right: 10px; font-weight: bold; font-size: 1.2em; border: 2px solid rgb(255, 255, 0); border-radius: 5px;">LUCY™
+              Economy</button>
+          </div>
+        </div>
+        <br />
+        <div id="searchDIV" class="container full"
+          style="width: 70%; padding-top: 30px; padding-bottom: 30px; box-shadow: 5px 1px 10px 0 rgba(180, 0, 255, 0.5), 0 5px 20px 0 rgba(255, 0, 255, 0.5)!important;">
+          <center><a id="TitleLUCY" class="theme-color-font1 font-2"
+              style="text-shadow: 2px 2px 5px rgb(212, 0, 255)!important; font-size: 1.65em!important;">Lucy™ Principal
+              - Commands:</a></center>
+          <br />
+          <div class="container text-left" style="padding-left: 0px; padding-right: 20px; padding-bottom: 5px;">
+            <input type="text" class="buttons-commands button-base button-default"
+              style="cursor: text; text-align: left!important; width: 100%; margin-left: 10px; margin-right: 10px; font-weight: bold; font-size: 1.2em; border: 2px solid rgb(255,0,185); border-radius: 5px;"
+              id="searchBAR" onkeyup="SearchBAR()" placeholder="Procure algum comando...">
+          </div>
+          <div id="Principal">
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">ajuda
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!ajuda</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição:</a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abre o menu
+                    de ajuda ou mostra informações sobre algum comando.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ajuda/help</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                autorole</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!autorole&lt;&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Altere um
+                    cargo de entrada em seu servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!arole</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">badges
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!badges
+                    &lt;&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Adicionar
+                    cargo de emblema automatico em seu servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">avatar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!avatar
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostra o
+                    avatar de um usuário ou o seu.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">banner
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!banner
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostra o
+                    banner de um usuário ou o seu.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!bn</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                anti-fake</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!anti-fake</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Alterar uma
+                    data que um usuario nao podera entrar no servidor.&#39;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                anti-bot</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!anti-bot</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Ativar o
+                    anti-bot para nem um bot entrar no servidor.&#39;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                anti-spam</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!anti-spam</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Podera
+                    configura em um painel o anti-spam.&#39;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">ban
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!ban
+                    &lt;@user motivo&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Bane o
+                    usuário do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    BAN_MEMBERS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">unban
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!unban
+                    &lt;ID &gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> DesBanir um
+                    usuário do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    BAN_MEMBERS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">kick
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!kick
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Expulse o
+                    usuário do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> rr</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    KICK_MEMBERS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">clear
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!clear
+                    &lt;quantidade&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Limpe o chat
+                    de seu servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MANAGE_MENSSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">lock
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!lock
+                    &lt;&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Tranque algum
+                    canal.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MANAGE_SERVER</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">addrole
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!addrole
+                    &lt;@user <@&role&gt;< /a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> De algum
+                    cargo para algum membro.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> r,
+                    register</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MANAGE_ROLE</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">botinfo
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!botinfo
+                  </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abrir menu de
+                    informacoes do bot.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">profile
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!profile
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar as
+                    informações do seu perfil ou de outro usuários.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">div
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!div
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostra
+                    quantos usuários entram pelo o convite.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                serverinfo</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!serverinfo</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostra
+                    informações sobre o servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                userinfo</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!userinfo
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostra
+                    informações de algum usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">rankdiv
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!rankdiv</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar o
+                    rank de div dos divugadores do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> rdiv,
+                    rankdiv</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">ping
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!ping</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar a
+                    informacao do ping da api e do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                configvip</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!configvip
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Sete um VIP
+                    em algum usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">remvip
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!remvip
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Remova um VIP
+                    em algum usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">vip
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> s!vip</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abre um menu
+                    de configuração de seu vip.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> VIP</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">logs
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!logs</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abrir um meu
+                    de logs no servidor. (banimentos), (mensagens) e (addcargo)</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRATOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">logs2
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!logs2</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abrir um meu
+                    de logs2 no servidor. (entrada), (saida) e (trafego)</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRATOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">logs3
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!logs3</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abrir um meu
+                    de logs3 no servidor. (canais), (cargos) e (invites)</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRATOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">defesa
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!defesa</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abri um menu
+                    de Defesa.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRATOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">bug
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> s!remrole
+                    &lt;motivo&gt; &lt;print(url)&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Reportar um
+                    bug que voce encontrou no servidor do suporte, site ou bot.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">sug
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!sug
+                    &lt;msg&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Enviar uma
+                    sugestao sobre o servidor, site ou bot.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">abracar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!abracar
+                    &lt;@user&gt; &lt;id&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abraçar um
+                    usuario atravez de um Gif.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">beijar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!beijar
+                    &lt;@user&gt; &lt;id&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Beije um
+                    usuario atravez de um Gif.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">tapa
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!tapa
+                    &lt;@user&gt; &lt;id&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Dar um tapa
+                    em algum usuario atravez de um Gif.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">ship
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!ship
+                    &lt;@user1&gt; &lt;@user2&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Veja a
+                    porcentagem de amor de 2 usuários.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">casar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!casar
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Casar com
+                    algum usuario.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                divorciar</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!divorciar
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Divorciar do
+                    usuario que voce casou.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Everyone</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">sist
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!sist</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Ativar as
+                    defesas do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADMINISTRADOR</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">setadv
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!setadv
+                    &lt;@user&gt; &lt;motivo&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Dar ao
+                    usuário uma advertência.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> addadv</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADVERTÊNCIA</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">remadv
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!remadv
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Remove a
+                    advertência do usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ADVERTÊNCIA</a>
+                </div>
+              </div>
+            </details>
+
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">mute
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!mute
+                    &lt;@user&gt; &lt;motivo&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Dar um mute
+                    em um usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MUTE_MEMBERS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">unmute
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!unmute
+                    &lt;@user&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Remover o
+                    mute do usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> </a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MUTE_MEMBERS</a>
+                </div>
+              </div>
+            </details>
+
+
+          </div>
+          <div class="invisible" id="Music">
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                play</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!play &lt;nome da música/link/playlist&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Pesquisa e toca alguma música do YT/Spotify.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    p, tocar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                stop</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!stop</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Para a música, e o bot sai do canal.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    pare, parar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                volume</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!volume &lt;0-250&gt;</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    alterar o volume da musica atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    v, vol</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                skip</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!skip</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Pular a música para a próximo.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    pular, sk</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                pause</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!pause</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Pausa a música atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    pausar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                loop</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!loop</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    BOT Repete a Música em um ciclo infinito.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l, ciclo</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                ping</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!ping</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mostrar a informacao do ping da api e do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    p, pong</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                nowplaying</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!nowplaying</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mostra informações sobre a música atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    np, tocando</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                status</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!status</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mostrar as informações sobre o BOT.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    botinfo</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                uptime</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!uptime</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mostra as informacoes de atividade do BOT On-line.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    up, ativo</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                jump</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!jump</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Faz com que o BOT entre no Canal de Voz.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    j, entrar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                queue</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!queue</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mostra a fila.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    q, list, lista</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                filter</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!filter</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Altera o efeito do bot.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    filtro</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                resume</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!resume</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Resume a música atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    continue, resumir, unpause</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                remove</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!remove</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Remove uma música da fila.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    rm, del, delete</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                move</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!move</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Mover alguma música na fila.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    mv, mvs</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                replay</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!replay</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Repetir a Música que esta tocando na fila atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    rpy, rp</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                playprevious</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!playprevious</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Tocar a Música anterior da fila.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    pp, playp</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                playskip</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!playskip</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Reproduzir música pulando a música atual Nome/Link.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    ps, pskip</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                playtop</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!playtop</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Reproduzir as melhores Músicas por Nome/Link.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> pt, ptop</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                search</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!search</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Pesquisar uma Musica pelo nome.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    sr, find</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                seek</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    lm!seek</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Procurar uma Música atual.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    sk</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    MENAGE_CHANNELS</a>
+                </div>
+              </div>
+            </details>
+
+          </div>
+          <div class="invisible" id="Economy">
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">ajuda
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    ajuda/help</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Abre o menu
+                    de ajuda ou mostra informações sobre algum comando.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!help</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                addcoins</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    addcoins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> adicionar
+                    coins/money para o usuário.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!addcoins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> DESENVOLVEDOR
+                    DA LUCY</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">coins
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de coins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar as
+                    informações do seu money em (img).</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!coins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                topcoins</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    topcoins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar as
+                    informações dos topcoins do servidor.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!topcoins</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                blacklist</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    blacklist</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Colocar um
+                    usuariona blacklist.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    l!blacklist</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    Desenvolvedor</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">profile
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    profile</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Mostrar as
+                    informações do seu perfil ou de outro usuários.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!profile,
+                    l!perfil</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">daily
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de daily</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Pegar seu
+                    daily para ganhar coins.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!daily</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">pagar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de pagar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Pagar um
+                    usuario.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!pagar,
+                    l!pay</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">
+                depositar</summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    depositar/deposit</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Depositar seu
+                    coins/money no Branco.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!depositar,
+                    l!desposit</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">sacar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de
+                    sacar/retirar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Sacar/retitar
+                    seu coins/money do Branco.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!sacar,
+                    l!retirar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+
+            <details style="margin-bottom: 5px;">
+              <summary style="border: 1px solid gray; padding-left: 15px; font-size: 1.8em; border-radius: 4px;">roubar
+              </summary>
+              <div style="border: 1px solid gray; border-radius: 4px; padding-left: 1.5em">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Comando: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> de roubar</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Descrição: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> Roubar um
+                    usuario.</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Aliases: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important"> l!roubar,
+                    l!rou</a>
+                </div>
+                <hr style="margin:0px">
+                <div style="display: flex; flex-direction: row; height: none!important;">
+                  <a class="theme-color-font1 text-left" style="font-weight: bold!important">Permissão Necessaria: </a>
+                  <a class="theme-color-font1" style="padding-left: 5px; color: rgb(235,0,255)!important">
+                    SEND_MESSAGES</a>
+                </div>
+              </div>
+            </details>
+            <div style="padding-bottom: 5px;"></div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function setMenu(menuID) {
+      document.getElementById(menuID).classList.remove("invisible");
+      document.getElementById('TitleLUCY').innerHTML = `Lucy™ ${menuID} - Commands:`;
+      if (menuID !== "Principal") document.getElementById("Principal").classList.add("invisible");
+      if (menuID !== "Music") document.getElementById("Music").classList.add("invisible");
+      if (menuID !== "Economy") document.getElementById("Economy").classList.add("invisible");
+    }
+
+    function SearchBAR() {
+      // Declare variables
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('searchBAR');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("searchDIV");
+      li = ul.getElementsByTagName('summary');
+
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+        a = li[i]
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+  <footer class="background-star"
+    style="padding-top: 35px; padding-bottom: 15px; padding-right: 15px; padding-left: 15px;">
+    <div class="dashboard"
+      style="display: flex; flex-direction: row;display: flex; justify-content: space-between!important;">
+      <div class="container" style="display: flex; flex-direction: column;">
+        <div class="col-xs-1 text-center" style=" display: flex;">
+          <h3 class="m-0 text-left text-white small font-5"
+            style="font-size: 2em; margin-top: 10px; text-shadow: 2px 2px 5px rgb(255, 0, 183)!important; padding-top: 2px;">
+            Lucy</h3>
+          <h3 class="m-0 text-left text-white small font-2"
+            style="font-size: 2em; margin-top: 0px; margin-bottom: 10px; text-shadow: 2px 2px 5px rgb(255, 0, 183)!important;">
+            Lucy™</h3>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h6></h6>
+      </div>
+      <div class="container" style="display: flex; flex-direction: column; padding-right: 0px;">
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important" href="/"><strong>Pagina
+            Inicial</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important" href="/painel-de-controle/painel"><strong>Painel de
+            Controle</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="https://discord.gg/qygJRw8K7p"><strong>Server Suporte</strong></a>
+      </div>
+      <div class="container" style="display: flex; flex-direction: column; padding-right: 0px;">
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/premium.html"><strong>Seja Premium</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/stores/store"><strong>Loja</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/comandos/commands"><strong>Comandos</strong></a>
+      </div>
+    </div>
+    <hr>
+    <p class="m-0 text-left text-white small">2021 - 2022 yThauanzynho7 — Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    function setTheme(themeName) {
+      localStorage.setItem('theme', themeName);
+      if (document.URL.includes('private')) {
+        document.documentElement.className = themeName + " private-page";
+      } else {
+        document.documentElement.className = themeName + " public-page";
+      }
+    }
+
+    function toggleTheme() {
+      if (localStorage.getItem('theme') === 'theme-dark') {
+        setTheme('theme-light');
+        var element = document.getElementById("botaothemeID");
+        element.classList.remove("fa-sun");
+        element.classList.add("fa-moon");
+      } else {
+        setTheme('theme-dark');
+        var element = document.getElementById("botaothemeID");
+        element.classList.remove("fa-moon");
+        element.classList.add("fa-sun");
+      }
+    }
+    (function () {
+      if (localStorage.getItem('theme') === 'theme-dark') {
+        setTheme('theme-dark');
+        var element = document.getElementById("botaothemeID");
+        element.classList.add("fa-sun");
+      } else {
+        setTheme('theme-light');
+        var element = document.getElementById("botaothemeID");
+        element.classList.add("fa-moon");
+      }
+    })();
+  </script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

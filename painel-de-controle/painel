@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="yThauanzynho7">
+  <link href="https://images-ext-2.discordapp.net/external/MZRb1KAfIupeoktlXxMvegtP_RcscrNdi8uoHTeV4WA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/992128503048835253/852ded51ea0a3b87f809b326d64b4a4f.png?width=494&height=494" rel="icon">
+  <link href="/css/star.css" rel="stylesheet">
+  <link href="/css/one-page-wonder.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/all.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="/image/x-icon" href="/img/star.png" />
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+  <title>Lucy™ Store</title>
+</head>
+
+<body class="theme-color">
+  <nav class="degrade navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <div class="col-xs-1 text-center navbar-color"
+      style=" display: flex; align-items: center; justify-content: center;">
+      <a class="navbar-brand theme-color-font2 theme-color-font2 font-3" href="/"
+        style="margin-left: 5px; margin-right: 1px; margin-bottom: 0px; padding-top: 7px; padding-bottom: 3px;"><i
+          class="far fa-star-half"></i>LUCY</a>
+      <a class="navbar-brand theme-color-font2 theme-color-font2 font-2" href="/"
+        style="padding-top: 0px; padding-bottom: 10px; margin-right: 15px;"></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="https://discord.gg/qygJRw8K7p"><i
+              class="fab fa-discord"></i> Discord</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/comandos/commands"><i
+              class="fas fa-laptop-code"></i>
+            Comandos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/premium.html"><i class="fas fa-donate"></i> Seja
+            premium</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="https://top.gg/bot/992128503048835253/vote"><i
+              class="fa fa-check-circle"></i> Votar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-color-font2 navbar-color" href="/stores/store"><i class="fas fa-shopping-cart"></i>
+            Loja</a>
+        </li>
+
+        <div class="nav-item dropdown">
+          <a href="/links/link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-link"
+              aria-hidden="true"></i> Links</a>
+          <div class="dropdown-menu m-0">
+
+            <a href="/links/" class="dropdown-item">Diretrizes da comunidade</a>
+            <a href="/links/" class="dropdown-item">Termos de Serviço e Política de Privacidade</a>
+          </div>
+        </div>
+
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <button class="text-left botao theme-color-font2 navbar-color"
+          style="padding-left: 0px; background-color: rgba(255, 255, 255, 0); border: 0px;" onclick="toggleTheme()"><i
+            id="botaothemeID" class='fas fa-moon'></i></button>
+        <div style="padding-right: 20px;"></div>
+        <li class="nav-item navbar-color" style="display: flex!important; flex-direction: row!important;">
+
+          <a class="nav-link theme-color-font2 navbar-color" style="padding-left: 5px;"
+            href="https://discord.com/api/oauth2/authorize?client_id=992128503048835253&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorihttps://discord.com/api/oauth2/authorize?client_id=992128503048835253&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D992128503048835253%26permissions%3D1377883909367%26scope%3Dbot&response_type=code&scope=email%20guilds%20identify%20guilds.join"><i
+              class="fas fa-sign-in-alt"></i> Entrar</a>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div style="padding-bottom: 130px;">
+    <div class="text-left" style="padding-top: 130px">
+      <div class="dashboard" style="display: flex; flex-direction: row;">
+        <div class="container full text-align">
+          <section>
+            <div class="container">
+              <div class="row center align-items-center dashboard text-center"
+                style="padding-bottom: 50px; padding-top: 50px;">
+                <div class="col-lg-6 starmenu" style="width: 20%; max-width: 20%;">
+                  <div class="p-5 starmenu" style="padding: 0px!important;">
+                    <img class="img-fluid" style="margin-bottom: 40px;" src="img/chibi3.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6 starmenu" style="width: 60%;">
+                  <div class=" starmenu">
+                    <h1 class="display-1" style="font-weight: bold; color:rgb(255, 0, 185)!important;">404</h1>
+                    <h1 class="mb-4" style="font-weight: bold; color:rgb(255, 0, 185)!important;">Página não encontrada
+                    </h1>
+                    <p class="mb-4">Que pena, a gente não conseguiu encontrar essa página, já tentou voltar na máquina
+                      do tempo?</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="/"
+                      style="font-weight: bold; color:rgb(255, 0, 185)!important;">Voltar no tempo</a>
+                  </div>
+                </div>
+                <div class="col-lg-6 starmenu" style="width: 20%; max-width: 20%;">
+                  <div class="p-5 starmenu" style="padding: 0px!important;">
+                    <img class="img-fluid" style="margin-bottom: 40px;" src="img/chibi3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="background-star"
+    style="padding-top: 35px; padding-bottom: 15px; padding-right: 15px; padding-left: 15px;">
+    <div class="dashboard"
+      style="display: flex; flex-direction: row;display: flex; justify-content: space-between!important;">
+      <div class="container" style="display: flex; flex-direction: column;">
+        <div class="col-xs-1 text-center" style=" display: flex;">
+          <h3 class="m-0 text-left text-white small font-5"
+            style="font-size: 2em; margin-top: 10px; text-shadow: 2px 2px 5px rgb(255, 0, 183)!important; padding-top: 2px;">
+            Lucy</h3>
+          <h3 class="m-0 text-left text-white small font-2"
+            style="font-size: 2em; margin-top: 0px; margin-bottom: 10px; text-shadow: 2px 2px 5px rgb(255, 0, 183)!important;">
+            ™</h3>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h6></h6>
+      </div>
+      <div class="container" style="display: flex; flex-direction: column; padding-right: 0px;">
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important" href="/"><strong>Pagina
+            Inicial</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important" href="/dashboard"><strong>Painel de
+            Controle</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="https://discord.gg/qygJRw8K7p"><strong>Suporte</strong></a>
+      </div>
+      <div class="container" style="display: flex; flex-direction: column; padding-right: 0px;">
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/premium"><strong>Premium</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/store"><strong>Loja</strong></a>
+        <a class="m-0 text-left small" style="color: rgb(220, 220, 220)!important"
+          href="/commands"><strong>Comandos</strong></a>
+      </div>
+    </div>
+    <hr>
+    <p class="m-0 text-left text-white small">2021 - 2022 yThauanzynho7 — Todos os direitos reservados</p>
+  </footer>
+
+ <script>
+    function setTheme(themeName) {
+      localStorage.setItem('theme', themeName);
+      if (document.URL.includes('private')) {
+        document.documentElement.className = themeName + " private-page";
+      } else {
+        document.documentElement.className = themeName + " public-page";
+      }
+    }
+
+    function toggleTheme() {
+      if (localStorage.getItem('theme') === 'theme-dark') {
+        setTheme('theme-light');
+        var element = document.getElementById("botaothemeID");
+        element.classList.remove("fa-sun");
+        element.classList.add("fa-moon");
+      } else {
+        setTheme('theme-dark');
+        var element = document.getElementById("botaothemeID");
+        element.classList.remove("fa-moon");
+        element.classList.add("fa-sun");
+      }
+    }
+    (function () {
+      if (localStorage.getItem('theme') === 'theme-dark') {
+        setTheme('theme-dark');
+        var element = document.getElementById("botaothemeID");
+        element.classList.add("fa-sun");
+      } else {
+        setTheme('theme-light');
+        var element = document.getElementById("botaothemeID");
+        element.classList.add("fa-moon");
+      }
+    })();
+  </script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
